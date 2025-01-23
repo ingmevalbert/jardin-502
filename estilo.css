@@ -1,0 +1,67 @@
+body{
+    background-image: url(plantas-para-jardin-medicinal.webp);
+    background-size: cover;
+}
+#titulo{
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px;
+    color: rgb(2, 2, 2);
+    font-size: 15px;
+}
+nav{
+    background-color: lightcoral;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+}
+nav ul li{
+    float: left;
+    margin-left: 200px; 
+}
+nav ul li a{
+    display: block;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(184, 38, 123);
+}
+#galeria{
+    margin: 50px 20px;
+    box-shadow: 0 4px 8px blanchedalmond;
+    float: left;
+    width: 350px;
+}
+#galeria img{
+    width: 100%;
+    height: auto;
+}
+#galeria:hover{
+    border: 2px solid rgb(126, 33, 110);
+    transform: rotate(-3deg);
+}
+#descripcion{
+    text-align: center;
+    text-shadow: 2px 2px 5px lightcoral;
+    padding: 10px;
+    font-family: cursive;
+    color: black;
+    background-color: aliceblue;
+}
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msm{
+    background-color: burlywood;
+}
